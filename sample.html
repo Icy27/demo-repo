@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Block Element   not Allow next content show at beside-->
+    <div>I am a Block level element</div>
+    <div>I am a Block level element</div>
+
+    <span>
+      this is wrong block present inside inline
+      <div>dsdsd</div>
+    </span>
+
+    <div>
+      this is inline inside block supported
+      <span>dsdsd</span>
+    </div>
+
+    <div>
+      this is block inside block supported
+      <div>dsdsd</div>
+    </div>
+
+    <!--Inline Elements   Allow next content show at beside-->
+    <span>This is inline element</span>
+    <span>This is inline element</span>
+  </body>
+</html>
